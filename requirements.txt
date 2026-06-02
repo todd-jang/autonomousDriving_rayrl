@@ -1,0 +1,35 @@
+# Core
+numpy>=1.26.0
+gymnasium>=0.29.0
+torch>=2.0.0
+ray[rllib]>=2.9.0
+
+# Isaac Sim (install via ./python.sh pip)
+# omni-isaac-kit (bundled with Isaac Sim)
+
+# ROS2 (install via apt)
+# ros-humble-nav2-bringup
+# ros-humble-robot-localization
+
+# Sensors / Maps
+opencv-python-headless>=4.9.0
+pyproj>=3.6.0
+shapely>=2.0.0
+
+# Bots
+slack-bolt>=1.18.0
+slack-sdk>=3.27.0
+python-telegram-bot>=21.0.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+aiohttp>=3.9.0
+
+# MLOps
+tensorboard>=2.15.0
+asyncssh>=2.14.0
+httpx>=0.27.0
+python-dotenv>=1.0.0
+redis>=5.0.0
+
+# C bindings
+cffi>=1.16.0

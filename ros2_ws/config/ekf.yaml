@@ -1,0 +1,20 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 50.0
+    sensor_timeout: 0.1
+    two_d_mode: false
+    publish_tf: true
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+
+    odom0: /odometry/wheel
+    odom0_config: [true,true,false, false,false,true, true,true,false, false,false,true, false,false,false]
+
+    imu0: /sensors/imu/data
+    imu0_config: [false,false,false, true,true,true, false,false,false, true,true,true, true,false,false]
+    imu0_remove_gravitational_acceleration: true
+
+    pose0: /sensors/gps/pose
+    pose0_config: [true,true,true, false,false,false, false,false,false, false,false,false, false,false,false]
